@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lacquer', cursive;
+}
+
+body {
+    background-color: rgb(170, 167, 164);
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+.container {
+    overflow: hidden;
+    text-align: center;
+    background: -moz-linear-gradient(top, grey, black);
+    background: -webkit-linear-gradient(top, grey, black);
+    background: linear-gradient(to bottom, grey, black);
+}
+
+h1 {
+    color: rgb(238, 238, 238);
+    font-size: 120px;
+    margin: 20px 0px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 480px) {
+    
+}
