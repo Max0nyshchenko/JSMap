@@ -20,7 +20,7 @@ img {
     text-align: center;
     background: -moz-linear-gradient(top, grey, black);
     background: -webkit-linear-gradient(top, grey, black);
-    background: linear-gradient(to bottom, grey, black);
+    background: linear-gradient(to bottom, rgb(116, 184, 223), rgb(94, 94, 94));
 }
 
 h1 {
@@ -31,5 +31,45 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
-    
+    h1 {
+        font-size: 48px;
+    }
+    .title ul li {
+        padding: 8px 0;
+    }
+    li a {
+        padding: 9px 10px;
+    }
+    .title {
+        margin-top: 30px;
+    }
+}
+
+.title ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 5px;
+}
+
+li a {
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    padding: 10px 20px;
+    -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -moz-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -o-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+li a:hover {
+    background-color: rgb(36, 36, 36);
+    border: 2px solid rgb(36, 36, 36);
+    color: white;
+}
+
+#map {
+    margin-top: 40px;
 }
